@@ -133,18 +133,17 @@
 
     .app {
         height: 100vh;
-        background-position: center;
         background-size: cover;
     }
 
     .getSkinPlace {
         width: 90vw;
-        height: 90vh;
+        height: 80vh;
         border-radius: 4vw;
     }
 
     .getSkin {
-        height: 60vh;
+        height: 50vh;
         gap: 2vh;
     }
 
