@@ -1,0 +1,313 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Gill Sans, sans-serif;
+    background-image: url(../../../public/04042025_Spring_Forward_Update_pic1-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.getSkinPlace {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(58, 58, 58);
+    border-radius: 2vw;
+}
+
+.getSkin {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skin {
+    width: 20vw;
+    background-color: rgb(73, 73, 73);
+    border-radius: 1vw;
+}
+
+.skinImg {
+    width: 20vw;
+}
+
+.skinText {
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.free {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    font-size: 1.5vw;
+    color: rgb(5, 233, 104);
+}
+
+.btn {
+    padding: 1vw;
+    color: black;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    background-color: rgb(5, 233, 104);
+    border: none;
+    cursor: pointer;
+}
+
+.balls {
+    display: flex;
+    padding: 1vw;
+    gap: 1vw;
+}
+
+.greenBall {
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(5, 233, 104);
+    border-radius: 50%;
+}
+
+.tradeDiv {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.tradeContent {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    margin-top: 2vh;
+    background-color: rgb(58, 58, 58);
+    border-radius: 2vw;
+}
+
+.labelText {
+    font-size: 1.4vw;
+    color: white;
+}
+
+.tradeUrl {
+    padding: 0.5vw;
+    width: 30vw;
+    border: none;
+    border-radius: 2vw;
+}
+
+.code {
+    padding: 0.5vw;
+    width: 10vw;
+    border: none;
+    border-radius: 2vw;
+}
+
+.tradeBtn {
+    padding: 0.7vw;
+    color: black;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    background-color: rgb(5, 233, 104);
+    border: none;
+    cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+
+    .app {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .getSkinPlace {
+        width: 90vw;
+        height: 90vh;
+        border-radius: 4vw;
+    }
+
+    .getSkin {
+        height: 60vh;
+        gap: 2vh;
+    }
+
+    .skin {
+        width: 70vw;
+        border-radius: 3vw;
+    }
+
+    .skinImg {
+        width: 70vw;
+    }
+
+    .skinText {
+        font-size: 4.5vw;
+    }
+
+    .free {
+        font-size: 4vw;
+        margin-right: 3vw;
+    }
+
+    .btn {
+        padding: 3vw 6vw;
+        font-size: 4vw;
+        border-radius: 5vw;
+    }
+
+    .balls {
+        gap: 3vw;
+        padding: 3vw;
+    }
+
+    .greenBall {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .tradeDiv {
+        align-items: flex-start;
+        padding-top: 10vh;
+    }
+
+    .tradeContent {
+        width: 85vw;
+        max-height: 50vh;
+        height: auto;
+
+        padding: 4vw 0;
+        border-radius: 4vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 2vh;
+    }
+
+    .labelText {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .tradeUrl {
+        width: 75vw;
+        padding: 2vw;
+        font-size: 4vw;
+    }
+
+    .code {
+        width: 40vw;
+        padding: 2vw;
+        font-size: 4vw;
+    }
+
+    .tradeBtn {
+        font-size: 4vw;
+        padding: 3vw 6vw;
+        border-radius: 5vw;
+    }
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+
+    .getSkinPlace {
+        width: 90vw;
+        height: 90vh;
+        border-radius: 3vw;
+    }
+
+    .getSkin {
+        height: 65vh;
+        gap: 2vh;
+    }
+
+    .skin {
+        width: 45vw;
+        border-radius: 2vw;
+    }
+
+    .skinImg {
+        width: 45vw;
+    }
+
+    .skinText {
+        font-size: 2.5vw;
+    }
+
+    .free {
+        font-size: 2.2vw;
+    }
+
+    .btn {
+        padding: 1.5vw 3vw;
+        font-size: 2.2vw;
+        border-radius: 3vw;
+    }
+
+    .balls {
+        gap: 1.5vw;
+    }
+
+    .greenBall {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+
+    .tradeDiv {
+        align-items: flex-start;
+        padding-top: 12vh;
+    }
+
+    .tradeContent {
+        width: 55vw;
+        max-height: 45vh;
+        height: auto;
+
+        padding: 2.5vh 0;
+        border-radius: 3vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1.5vh;
+    }
+
+    .labelText {
+        font-size: 2vw;
+    }
+
+    .tradeUrl {
+        width: 50vw;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    .code {
+        width: 20vw;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    .tradeBtn {
+        font-size: 2vw;
+        padding: 1vw 2vw;
+        border-radius: 2vw;
+    }
+}
